@@ -1,0 +1,1 @@
+git+git://github.com/pimoroni/VL53L0X_rasp_python.git#egg=VL53L0X
