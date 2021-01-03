@@ -1,21 +1,22 @@
 # Setup for MKR WiFi 1010 dev board
 
-<!-- #TODO add circuit diagrams and library info -->
 Setup instructions for an Arduino MKR WiFi 1010 development board.
 
 ## Circuit Diagram
 Wire the components as shown in the diagram.
 
-![circuit diagram](assets/...)
+<!-- #TODO schematic diagram -->
+<!-- ![circuit diagram](assets/mkr-vl53l0x-sensor-circuit-diagram_schem.svg) -->
 
 #### Components Needed
-* 
+
+* VL53l0X Sensor
 * connecting wires
 * MKR WiFi 1010 development board
 
 <br />
 
-![breadboard diagram](assets/...)
+![breadboard diagram](assets/mkr-vl53l0x-sensor-circuit-diagram_bb.png)
 
 <br />
 
@@ -26,6 +27,8 @@ Wire the components as shown in the diagram.
 |  |  |  |
 | VCC | +3.3V | Vdd |
 | GND | GND | GND |
+| 11 | SDA | SDA |
+| 12 | SCL | SCL |
 |  |  |  |
 
 ![pin diagram](assets/Pinout-MKRwifi1010_latest.png)

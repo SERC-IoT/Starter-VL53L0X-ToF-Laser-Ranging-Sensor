@@ -1,9 +1,8 @@
-# Arduino Uno and -- -- Sensor
+# Arduino Uno and VL53L0X Time-of-Flight Laser Ranging Sensor
 
 ![Arduino Sketch Compiles](https://github.com/SERC-IoT/Starter-Start/workflows/Arduino%20Sketch%20Compiles/badge.svg)
 
-<!-- #TODO add sensor and circuit diagrams -->
-Setup instructions and starter code for using the -- -- sensor and an Arduino development board.
+Setup instructions and starter code for using the VL53L0X Time-of-Flight Laser Ranging sensor and an Arduino development board.
 
 <br />
 
@@ -25,10 +24,12 @@ Setup instructions for an Arduino Uno board is below. For MKR WiFi 1010 based se
 ## Circuit Diagram
 Wire the components as shown in the diagram.
 
-![circuit diagram](assets/...)
+<!-- #TODO schematic diagram -->
+<!-- ![circuit diagram](assets/uno-vl53l0x-sensor-circuit-diagram_schem.svg) -->
 
 #### Components Needed
-* 
+
+* VL53l0X Sensor
 * connecting wires
 * arduino uno development board
 
@@ -43,8 +44,10 @@ Wire the components as shown in the diagram.
 
 | Pin No | Function | Device Connection |
 | --- | --- | --- |
-| 5V | +5V | Vdd |
+| 3V | +3.3V | Vcc |
 | GND | GND | GND |
+| 18 | SDA | SDA |
+| 19 | SCL | SCL |
 |  |  |  |
 
 ![pin diagram](assets/Pinout-UNOrev3_latest.png)

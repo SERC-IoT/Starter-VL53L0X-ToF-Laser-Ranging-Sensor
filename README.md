@@ -16,11 +16,11 @@ Setup instructions and starter code for different development boards
 
 | Board | Folder |
 | --- | --- |
-<!-- | Arduino Uno | [arduino-uno/](arduino-uno/) |
+| Arduino Uno | [arduino-uno/](arduino-uno/) |
 | Arduino MKR WiFi 1010 | For MKR WiFi 1010 follow instructions for Arduino Uno [arduino-uno/](arduino-uno/) |
 | Arduino Nano 33 BLE | For Nano 33 BLE follow instructions for Arduino Uno [arduino-uno/](arduino-uno/) |
 | ESP32 | For ESP32 boards, follow instructions for ESP8266 [esp8266/](esp8266/) |
-| ESP8266 | [esp8266/](esp8266/) | -->
+| ESP8266 | [esp8266/](esp8266/) |
 | Jetson Nano | For Jetson Nano, follow instructions for Raspberry Pi [raspberry-pi/](raspberry-pi/) |
 | Raspberry Pi | [raspberry-pi/](raspberry-pi/) |
 |  |  |
@@ -46,4 +46,5 @@ Setup instructions and starter code for different development boards
 ## References
 
 - Manufacturer: https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html
-- Datasheet: https://www.st.com/resource/en/datasheet/vl53l0x.pdf 
+- Datasheet: https://www.st.com/resource/en/datasheet/vl53l0x.pdf
+- https://learn.adafruit.com/adafruit-vl53l0x-micro-lidar-distance-sensor-breakout/overview
