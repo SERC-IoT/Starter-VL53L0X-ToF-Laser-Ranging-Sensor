@@ -10,6 +10,7 @@ Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor and an
 |--- | --- |
 | [arduino/](arduino/) | folder for arduino sketches. // For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
 | [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
+| [micropython/distance_readings.py](micropython/distance_readings.py) | micropython script that reads the distance values and prints them to the repl. |
 |  |  |
 
 <br />
@@ -65,11 +66,11 @@ The arduino sketches require the -- -- libraries. They are included in the root 
 
 ## MicroPython
 
-<!-- #TODO add library info -->
-MicroPython already has drivers for -- devices baked in.
+The MicroPython script uses a module from https://bitbucket.org/thesheep/micropython-vl53l0x. It is included in the [micropython/lib](micropython/lib) folder.
 
 <br />
 
 ## References
 
 - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+- Micropython library: https://bitbucket.org/thesheep/micropython-vl53l0x
