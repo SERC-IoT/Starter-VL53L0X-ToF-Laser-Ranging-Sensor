@@ -4,6 +4,8 @@ Code for getting started with a VL53L0X ToF (Time-of-Flight) Laser Ranging senso
 
 ![sensor](assets/vl53l0x-sensor.jpg)
 
+The VL53L0X sensor uses a small laser and a matching detector sensor. The VL53L0X detects how long it takes the laser light to bounce off a surface back to the sensor. Since it is using a very narrow light source, it only detects the distance of surfaces directly in front of the sensor.
+
 The VL53L0X uses the I2C serial protocol.
 
 <br />
@@ -43,4 +45,5 @@ Setup instructions and starter code for different development boards
 
 ## References
 
+- Manufacturer: https://www.st.com/en/imaging-and-photonics-solutions/vl53l0x.html
 - Datasheet: https://www.st.com/resource/en/datasheet/vl53l0x.pdf 
