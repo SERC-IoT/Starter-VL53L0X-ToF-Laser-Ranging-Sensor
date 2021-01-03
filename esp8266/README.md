@@ -1,7 +1,6 @@
-# ESP8266 and -- -- Sensor
+# ESP8266 and VL53L0X Time-of-Flight Laser Ranging Sensor
 
-<!-- #TODO add sensor and circuit diagrams -->
-Code for getting started with -- -- sensor and an ESP8266 development board.
+Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor and an ESP8266 development board.
 
 <br />
 
@@ -23,17 +22,18 @@ Setup instructions for a WeMos D1 mini are below. For ESP32 based setup instruct
 
 Wire the components as shown in the diagram.
 
-![circuit diagram](assets/esp8266-starter-circuit-diagram_schem.svg)
+<!-- #TODO schematic diagram -->
+<!-- ![circuit diagram](assets/esp8266-vl53l0x-sensor-circuit-diagram_schem.svg) -->
 
 #### Components Needed
 
-* 
+* VL53l0X Sensor
 * connecting wires
 * esp8266 device
 
 <br />
 
-![breadboard diagram](assets/esp8266-starter-circuit-diagram_bb.svg)
+![breadboard diagram](assets/esp8266-vl53l0x-sensor-circuit-diagram_bb.png)
 
 <br />
 
@@ -42,8 +42,10 @@ Wire the components as shown in the diagram.
 | Pin No | Function |  | Device Connection |
 | --- | --- | --- | --- |
 |  |  |  |  |
-| 1 | +3.3V |  | Vdd |
-| 6 | GND |  | GND |
+| 3V3 | 3.3V | VL53L0X VCC 3.3V |
+| D2 | GPIO 4 (SDA) | VL53L0X SDA (I2C) |
+| D1 | GPIO 5 (SCL) | VL53L0X SCL (I2C) |
+| G | GND | GND |
 |  |  |  |  |
 
 ![pin diagram](assets/wemos-d1-mini-pinout.png)
