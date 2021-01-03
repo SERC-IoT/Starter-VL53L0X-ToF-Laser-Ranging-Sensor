@@ -8,7 +8,7 @@ Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor and an
 
 | File/Folder | Description |
 |--- | --- |
-| [arduino/](arduino/) | folder for arduino sketches. // For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
+| [arduino/](arduino/) | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
 | [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
 | [micropython/distance_readings.py](micropython/distance_readings.py) | micropython script that reads the distance values and prints them to the repl. |
 |  |  |
@@ -59,8 +59,7 @@ Further details and other board pin out diagrams can be found here: https://rand
 
 The sketch will work with many different types and chipset of board. To use an ESP8266 board with Arduino IDE, you will need to install the relevant board configuration files. Follow the instructions here: https://arduino-esp8266.readthedocs.io/en/latest/installing.html
 
-<!-- #TODO add library info -->
-The arduino sketches require the -- -- libraries. They are included in the root additional-libraries folder. Afternatively, they can be downloaded through the Arduino libraries manager or from -- --
+The arduino sketches require the Adafruit VL53L0X library. It is included in the root additional-libraries folder. Afternatively, it can be downloaded through the Arduino libraries manager or from https://github.com/adafruit/Adafruit_VL53L0X
 
 <br />
 
@@ -73,4 +72,5 @@ The MicroPython script uses a module from https://bitbucket.org/thesheep/micropy
 ## References
 
 - https://randomnerdtutorials.com/esp8266-pinout-reference-gpios/
+- Arduino library: https://github.com/adafruit/Adafruit_VL53L0X
 - Micropython library: https://bitbucket.org/thesheep/micropython-vl53l0x

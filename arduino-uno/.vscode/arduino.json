@@ -1,4 +1,4 @@
 {
-    "sketch": "arduino\\sketch\\sketch.ino",
+    "sketch": "arduino/vl53l0x-distance-sensor/vl53l0x-distance-sensor.ino",
     "board": "arduino:avr:uno"
 }

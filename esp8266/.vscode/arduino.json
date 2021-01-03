@@ -1,5 +1,5 @@
 {
-    "sketch": "arduino\\sketch\\sketch.ino",
+    "sketch": "../arduino-uno/arduino/vl53l0x-distance-sensor/vl53l0x-distance-sensor.ino",
     "board": "esp8266:esp8266:d1_mini",
     "configuration": "xtal=80,vt=flash,exception=legacy,ssl=all,eesz=4M2M,ip=lm2f,dbg=Disabled,lvl=None____,wipe=none,baud=921600"
 }
