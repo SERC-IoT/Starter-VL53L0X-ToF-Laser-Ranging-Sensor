@@ -1,7 +1,6 @@
-# Raspberry Pi and -- Sensor
+# Raspberry Pi and VL53L0X Time-of-Flight Laser Ranging Sensor
 
-<!-- #TODO add sensor and circuit diagrams -->
-Code for getting started with ... sensor using a Raspberry Pi.
+Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor using a Raspberry Pi.
 
 <br />
 
@@ -20,17 +19,18 @@ Code for getting started with ... sensor using a Raspberry Pi.
 
 Wire the components as shown in the diagram.
 
-![circuit diagram](assets/rpi-starter-circuit-diagram_schem.svg)
+<!-- #TODO schematic diagram -->
+<!-- ![circuit diagram](assets/rpi-vl53l0x-sensor-circuit-diagram_schem.svg) -->
 
 #### Components Needed
 
-* 
+* VL53L0X Time-of-Flight Laser Ranging Sensor breackout board
 * connecting wires
 * raspberry pi
 
 <br />
 
-![breadboard diagram](assets/rpi-starter-circuit-diagram_bb.svg)
+![breadboard diagram](assets/rpi-vl53l0x-sensor-circuit-diagram_bb.png)
 
 <br />
 
@@ -39,8 +39,10 @@ Wire the components as shown in the diagram.
 | Pin No | Function |  | Device Connection |
 | --- | --- | --- | --- |
 |  |  |  |  |
-| 1 | +3.3V |  | Vdd |
+| 1 | +3.3V |  | VCC |
 | 6 | GND |  | GND |
+| 3 | GPIO2 / I2C1 SDA |  | SDA |
+| 5 | GPIO3 / I2C1 SCL |  | SCL |
 |  |  |  |  |
 
 ![pin diagram](assets/rp2_pinout.png)
