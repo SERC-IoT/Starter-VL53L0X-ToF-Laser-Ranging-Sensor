@@ -30,7 +30,7 @@ Setup instructions and starter code for different development boards
 | File/Folder | Description |
 |--- | --- |
 | additional-libraries | Folder contains libraries needed for Arduino sketches. They are included as submodules. Use either `git clone --recursive` or `git submodule init` after cloning. |
-| docs/... | Data sheet for sensor |
+| [docs/vl53l0x.pdf](docs/vl53l0x.pdf) | Data sheet for sensor |
 |  |  |
 
 <br />
@@ -42,3 +42,5 @@ Setup instructions and starter code for different development boards
 <br />
 
 ## References
+
+- Datasheet: https://www.st.com/resource/en/datasheet/vl53l0x.pdf 
