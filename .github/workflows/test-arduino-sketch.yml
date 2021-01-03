@@ -24,6 +24,7 @@ jobs:
     steps:
       # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
       - uses: actions/checkout@v2
+      - run: git submodule update --init --recursive
 
       # install arduino cli
       - name: Install arduino-cli
@@ -44,6 +45,4 @@ jobs:
 
       # compile sketch
       - name: Compile sketch
-        run: ./bin/arduino-cli compile --fqbn arduino:avr:uno arduino-uno/arduino/ #add sketch folder to path
-
-  
+        run: ./bin/arduino-cli compile --fqbn arduino:avr:uno arduino-uno/arduino/vl53l0x-distance-sensor/vl53l0x-distance-sensor.ino
