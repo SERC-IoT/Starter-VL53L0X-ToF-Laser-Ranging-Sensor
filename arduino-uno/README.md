@@ -36,7 +36,7 @@ Wire the components as shown in the diagram.
 
 <br />
 
-![breadboard diagram](assets/...)
+![breadboard diagram](assets/uno-vl53l0x-sensor-circuit-diagram_bb.png)
 
 <br />
 
