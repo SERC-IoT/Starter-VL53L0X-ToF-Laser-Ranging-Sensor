@@ -10,7 +10,7 @@ Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor using 
 |--- | --- |
 | [python/](python/) | folder for python scripts. |
 | [python/requirements.txt](python/requirements.txt) | Requirements file for python dependancy libraries. |
-| [python/VL53L0XRangeReadings.py](python/VL53L0XRangeReadings.py) | Python script that reads distance measurements. |
+| [python/VL53L0XRangeReading.py](python/VL53L0XRangeReading.py) | Python script that reads distance measurements. |
 | [config.sh](config.sh) | Bash script to automatically configure and setup the Raspberry Pi for using the ... sensor. |
 |  |  |
 

@@ -11,7 +11,7 @@ Setup instructions and starter code for using the VL53L0X Time-of-Flight Laser R
 | File/Folder | Description |
 |--- | --- |
 | [arduino/](arduino/) | Arduino projects folder |
-| [arduino/sketch/sketch.ino](arduino/sketch/sketch.ino) | Simple arduino sketch. |
+| [arduino/vl53l0x-distance-sensor/vl53l0x-distance-sensor.ino](arduino/vl53l0x-distance-sensor/vl53l0x-distance-sensor.ino) | Simple arduino sketch. |
 | [mkr-wifi-1010-setup.md](mkr-wifi-1010-setup.md) | Setup instructions for using an Arduino MKR WiFi 1010 dev board. |
 |  |  |
 

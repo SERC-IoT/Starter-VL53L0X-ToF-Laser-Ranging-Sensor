@@ -8,7 +8,7 @@ Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor and an
 
 | File/Folder | Description |
 |--- | --- |
-| [arduino/](arduino/) | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
+| [../arduino-uno/arduino/](arduino/) | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
 | [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
 | [micropython/distance_readings.py](micropython/distance_readings.py) | micropython script that reads the distance values and prints them to the repl. |
 |  |  |
