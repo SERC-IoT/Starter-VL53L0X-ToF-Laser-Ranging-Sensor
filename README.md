@@ -1,9 +1,10 @@
-# Starter Starter
+# VL53L0X Time-of-Flight Laser Ranging Sensor
 
-Brief project description and/or information about sensor.
+Code for getting started with a VL53L0X ToF (Time-of-Flight) Laser Ranging sensor.
 
-<!-- #TODO add image and description of sensor -->
-![sensor](assets/...)
+![sensor](assets/vl53l0x-sensor.jpg)
+
+The VL53L0X uses the I2C serial protocol.
 
 <br />
 
