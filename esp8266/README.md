@@ -1,5 +1,7 @@
 # ESP8266 and VL53L0X Time-of-Flight Laser Ranging Sensor
 
+![MicroPython Checks](../../../workflows/MicroPython%20Checks/badge.svg) ![Pylint score](../../../blob/badges/.github/badges/micropythonpylint.svg)
+
 Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor and an ESP8266 development board.
 
 <br />
