@@ -1,6 +1,6 @@
 # Arduino Uno and VL53L0X Time-of-Flight Laser Ranging Sensor
 
-![Arduino Sketch Compiles](https://github.com/SERC-IoT/Starter-Start/workflows/Arduino%20Sketch%20Compiles/badge.svg)
+![Arduino Sketch Checks](../../../workflows/Arduino%20Sketch%20Checks/badge.svg)
 
 Setup instructions and starter code for using the VL53L0X Time-of-Flight Laser Ranging sensor and an Arduino development board.
 
