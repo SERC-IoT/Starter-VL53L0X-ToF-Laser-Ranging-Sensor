@@ -11,6 +11,8 @@ Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor and an
 | [../arduino-uno/arduino/](arduino/) | For Arduino, use the sketches in the Arduino Uno folder [../arduino-uno/arduino](../arduino-uno/arduino) |
 | [micropython/](micropython/) | folder for micropython scripts. Pymakr is configured to sync this folder with the micropython device. |
 | [micropython/distance_readings.py](micropython/distance_readings.py) | micropython script that reads the distance values and prints them to the repl. |
+| [esp32-setup.md](esp32-setup.md) | Setup instructions for using an ESP32 dev board. |
+| [esp8266-micropython-setup.ps1](esp8266-micropython-setup.ps1) | PowerShell script to install MicroPython on ESP8266 device and upload scripts. |
 |  |  |
 
 <br />
@@ -65,6 +67,21 @@ The arduino sketches require the Adafruit VL53L0X library. It is included in the
 ## MicroPython
 
 The MicroPython script uses a module from https://bitbucket.org/thesheep/micropython-vl53l0x. It is included in the [micropython/lib](micropython/lib) folder.
+
+### Uploading Files
+
+Test files can be uploaded using [ampy](https://learn.adafruit.com/micropython-basics-load-files-and-run-code/install-ampy).
+
+```pwsh
+PS> ampy --port <COM port of device> --baud 115200 put micropython/distance_readings.py
+PS> ampy --port <COM port of device> --baud 115200 put micropython/lib
+```
+
+A PowerShell script ([esp8266-micropython-setup.ps1](esp8266-micropython-setup.ps1)) is also included to automatically setup MicroPython on an ESP8266 device.
+
+```pwsh
+PS> .\esp8266-micropython-setup.ps1
+```
 
 <br />
 
