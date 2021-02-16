@@ -33,7 +33,6 @@ Wire the components as shown in the diagram.
 * connecting wires
 * arduino uno development board
 
-
 <br />
 
 ![breadboard diagram](assets/uno-vl53l0x-sensor-circuit-diagram_bb.png)
@@ -42,13 +41,13 @@ Wire the components as shown in the diagram.
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-| 3V | +3.3V | Vcc |
-| GND | GND | GND |
-| 18 | SDA | SDA |
-| 19 | SCL | SCL |
-|  |  |  |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| 3V | +3.3V |  | Vcc |
+| GND | GND |  | GND |
+| 18 | SDA |  | SDA |
+| 19 | SCL |  | SCL |
+|  |  |  |  |
 
 ![pin diagram](assets/Pinout-UNOrev3_latest.png)
 

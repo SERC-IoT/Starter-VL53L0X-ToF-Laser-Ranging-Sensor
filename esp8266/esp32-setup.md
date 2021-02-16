@@ -14,7 +14,6 @@ Wire the components as shown in the diagram.
 * connecting wires
 * esp32 development board
 
-
 <br />
 
 ![breadboard diagram](assets/esp32-vl53l0x-sensor-circuit-diagram_bb.png)
@@ -23,14 +22,13 @@ Wire the components as shown in the diagram.
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-|  |  |  |
-|  | +3.3V | Vcc |
-|  | GND | GND |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+|  | +3.3V |  | Vcc |
+|  | GND |  | GND |
 | 4 | GPIO4 |  | SDA |
 | 5 | GPIO5 |  | SCL |
-|  |  |  |
+|  |  |  |  |
 
 ![pin diagram](assets/Lolin32_pinout03.png)
 

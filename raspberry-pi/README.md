@@ -39,7 +39,6 @@ Wire the components as shown in the diagram.
 
 | Pin No | Function |  | Device Connection |
 | --- | --- | --- | --- |
-|  |  |  |  |
 | 1 | +3.3V |  | VCC |
 | 6 | GND |  | GND |
 | 3 | GPIO2 / I2C1 SDA |  | SDA |

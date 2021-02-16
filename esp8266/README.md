@@ -42,11 +42,10 @@ Wire the components as shown in the diagram.
 
 | Pin No | Function |  | Device Connection |
 | --- | --- | --- | --- |
-|  |  |  |  |
-| 3V3 | 3.3V | VL53L0X VCC 3.3V |
-| D2 | GPIO 4 (SDA) | VL53L0X SDA (I2C) |
-| D1 | GPIO 5 (SCL) | VL53L0X SCL (I2C) |
-| G | GND | GND |
+| 3V3 | 3.3V |  | VL53L0X VCC 3.3V |
+| D2 | GPIO 4 (SDA) |  | VL53L0X SDA (I2C) |
+| D1 | GPIO 5 (SCL) |  | VL53L0X SCL (I2C) |
+| G | GND |  | GND |
 |  |  |  |  |
 
 ![pin diagram](assets/wemos-d1-mini-pinout.png)

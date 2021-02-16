@@ -22,14 +22,13 @@ Wire the components as shown in the diagram.
 
 ### Default Pin Wiring
 
-| Pin No | Function | Device Connection |
-| --- | --- | --- |
-|  |  |  |
-| VCC | +3.3V | Vdd |
-| GND | GND | GND |
-| 11 | SDA | SDA |
-| 12 | SCL | SCL |
-|  |  |  |
+| Pin No | Function |  | Device Connection |
+| --- | --- | --- | --- |
+| VCC | +3.3V |  | Vdd |
+| GND | GND |  | GND |
+| 11 | SDA |  | SDA |
+| 12 | SCL |  | SCL |
+|  |  |  |  |
 
 ![pin diagram](assets/Pinout-MKRwifi1010_latest.png)
 
