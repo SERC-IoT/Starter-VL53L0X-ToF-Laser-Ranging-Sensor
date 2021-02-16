@@ -1,5 +1,7 @@
 # Raspberry Pi and VL53L0X Time-of-Flight Laser Ranging Sensor
 
+![RPi Python Checks](../../../workflows/RPi%20Python%20Checks/badge.svg) ![Python code quality](../../../blob/badges/.github/badges/rpipycodequality.svg)
+
 Code for getting started with VL53L0X Time-of-Flight Laser Ranging sensor using a Raspberry Pi.
 
 <br />
