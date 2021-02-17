@@ -68,7 +68,7 @@ jobs:
         continue-on-error: false
         # TODO: add script paths
         run: |
-          timeout 10 python raspberry-pi/python/VL53L0XRangeReading.py || ( [[ $? -eq 124 ]] && exit 0 )
+          timeout 10 python -u raspberry-pi/python/VL53L0XRangeReading.py || ( [[ $? -eq 124 ]] && exit 0 )
 
     outputs:
       lint-score: ${{ steps.lintparsing.outputs.lintscore }}
