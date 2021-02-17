@@ -10,7 +10,7 @@ SCL_PIN = const(5)
 # alternatively hardware I2C bus (ESP32 only) can be used by passing 0 or 1 to
 # constructor, i.e.: i2c = I2C(0, scl=Pin(5), sda=Pin(4), freq=100000)
 # any input pins can be defined for the i2c interface
-i2c = machine.I2C(-1, scl=machine.Pin(SCL_PIN), sda=machine.Pin(SDA_PIN), freq=100000)
+i2c = machine.SoftI2C(scl=machine.Pin(SCL_PIN), sda=machine.Pin(SDA_PIN), freq=100000)
 
 # create snesor object
 sensor = vl53l0x.VL53L0X(i2c)
@@ -27,5 +27,5 @@ while True:
     # {} is used in conjunction with format() for substitution.
     # .1f       - format to 1 decimal places.
     print("Distance: {:.1f} mm".format(distance), end='\r')
-    
+
     utime.sleep_ms(500)
